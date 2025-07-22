@@ -1,0 +1,54 @@
+body, html{margin:0;padding:0;height:100%;background:black;font-family:'Segoe UI',sans-serif}
+.landing{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+.brand-heading{font-size:4em;font-weight:bold;background:linear-gradient(to right,#ff6a00,#ee0979,#00c3ff,#29ffc6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:0}
+.subtitle{font-size:1.2em;color:#ccc;margin-top:15px}
+
+.booking-section{background:#fff;color:#333;padding:60px 20px;text-align:center}
+.booking-title{font-size:2.5em;color:#111;margin-bottom:10px}
+.booking-subtitle{font-size:1.1em;color:#666;margin-bottom:30px}
+.booking-form{max-width:400px;margin:auto;text-align:left;background:#f9f9f9;padding:25px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+.booking-form label{display:block;margin-top:15px;font-weight:bold}
+.booking-form select, .booking-form input[type="text"], .booking-form input[type="tel"]{width:100%;padding:10px;margin-top:8px;border:1px solid #ccc;border-radius:6px}
+.booking-form button{margin-top:20px;width:100%;padding:12px;background:#4A90E2;color:#fff;border:none;font-size:16px;border-radius:6px;cursor:pointer}
+.booking-form button:hover{background:#357bd8}
+
+#chat-icon{position:fixed;bottom:25px;right:25px;background:#4A90E2;color:#fff;border-radius:50%;padding:15px;font-size:24px;cursor:pointer;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999}
+
+.chat-popup{position:fixed;bottom:90px;right:25px;width:420px;height:550px;background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.2);display:flex;flex-direction:column;z-index:999}
+.hidden{display:none}
+
+.chat-header{background:#4A90E2;color:#fff;padding:10px;display:flex;justify-content:space-between}
+
+.chatbox{flex:1;overflow-y:auto;background:#f7f7f7;font-size:14px;padding:20px 10px}
+
+.padded{margin:16px 0}
+
+.chat-user{background:#e1f5fe;padding:12px;border-radius:6px}
+.chat-bot{background:#e8e8e8;padding:12px;border-radius:6px}
+
+.chat-bot a.link{background:black;color:white;padding:2px 4px;border-radius:4px;text-decoration:none}
+
+.input-row {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  
+  .input-row input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .input-row button {
+    padding: 10px 20px;
+    background: #4A90E2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+.suggestion, .question{background:#f0f0f0;color:#0077cc;border:1px solid #0077cc;border-radius:10px;padding:10px;margin:10px 0;cursor:pointer;text-align:center;transition:background .3s}
+.suggestion:hover,.question:hover{background:#e6f0ff}
